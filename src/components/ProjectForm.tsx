@@ -112,7 +112,8 @@ const ProjectForm = () => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'X-Api-Key': import.meta.env.VITE_API_KEY,
+
+            'X-Api-Key': import.meta.env.VITE_API_KEY
           },
           body: JSON.stringify({
             "Name": formData.name,
